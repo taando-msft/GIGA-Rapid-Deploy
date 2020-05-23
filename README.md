@@ -7,16 +7,17 @@ GIGA スクール構想における Rapid Deploy 用のサンプルスクリプ�
 
 # 利用方法
 ## 学校名と人数の作成
-1. Cドライブ直下に専用のフォルダー（C:¥xxxx）を作成します。  
-2. リポジトリからzipファイルをダウンロードし、展開後、ファイルをC:¥xxxxに保存します。
-3. schoollist.csvを開き、任意の学校名と人数を記載して、UTF-8形式で保存します。 
+1. Cドライブ直下に専用のフォルダー（C:¥xxxx）を作成します。<br> 
+2. リポジトリからzipファイルをダウンロードし、展開後、ファイルをC:¥xxxxに保存します。<br>
+3. schoollist.csvを開き、任意の学校名と人数を記載して、UTF-8形式で保存します。<br>
 
 ## ユーザーアカウントの作成  
 3. SampleCreateCSV.ps1ファイルを開きます。<br>
 4. Set-Location -Path C:\xxxxxのパスを1.で指定したフォルダー名に変更します。<br>
 5. $domainname = "@.onmicrosoft.com"のxxxxx部分をテナントのサブドメイン名に変更します。<br>
 6. SampleCreateCSV.ps1ファイルを別名（CreateCSV.ps1）で保存します。<br>
-7. Windows PowerShell を [管理者として実行する] オプションから開き、CreateCSV.ps1のパスを指定して実行します。例：C:\xxxx\CreateCSV.ps1<br>
+7. Windows PowerShell を [管理者として実行する] オプションから開き、CreateCSV.ps1のパスを指定して実行します。<br>
+例：C:\xxxx\CreateCSV.ps1<br>
 ※ スクリプトの実行に失敗する場合は Set-ExecutionPolicy RemoteSigned コマンドレットを実行（「Y」を選択）してから再実行してください。<br>
 8. C:¥xxxxのoutputフォルダー内に学校名と人数が記載されたCSVファイルが作成されていることを確認します。<br>
 9. 8で作成されたCSVファイルをC:¥xxxxに保存します。<br>
