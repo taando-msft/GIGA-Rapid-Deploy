@@ -23,7 +23,7 @@ Office 365 を利用するためのアカウント作成からテナントへの
 8. C:¥xxxxのoutputフォルダー内に学校名と人数が記載されたCSVファイルが作成されていることを確認します。<br>
 9. 8.で作成されたCSVファイルをC:¥xxxxに保存します。<br>
 
-## Office 365 へのインポート　　
+## Office 365 テナントへのインポート　　
 10. SampleCreateSchoolAccounts.ps1を開きます。<br>
 11. Set-Location -Path "C:\xxxxx"のパスを1.で指定したフォルダー名に変更します。<br>
 12. $tenantName = "xxxxxx" をテナントのサブドメイン名に変更します。<br>
