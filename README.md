@@ -32,7 +32,7 @@ Office 365 を利用するためのアカウント作成からテナントへの
 15. SampleCreateSchoolAccounts.ps1を別名（CreateSchoolAccounts.ps1）で保存します。<br>
 ※ #ライセンスプラン の部分で、所有しているライセンスプランが不明な場合は Get-MsolAccountSku コマンドにて確認後、適切なプランに変更してください。<br>
 16. SampleBatchCreateSchoolAccounts.ps1を開きます。<br>
-17. .\CreateSchoolAccounts.ps1 に続けて作成した CSV ファイルの名前を入力します。<br>
+17. .\CreateSchoolAccounts.ps1 に続けて8.で作成した CSV ファイルの名前を入力します。<br>
 例：<br>
 .\CreateSchoolAccounts.ps1 XXXX小学校_Student.csv<br>
 .\CreateSchoolAccounts.ps1 XXXX小学校_Teacher.csv<br>
