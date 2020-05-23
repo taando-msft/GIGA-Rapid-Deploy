@@ -27,14 +27,14 @@ GIGA スクール構想における Rapid Deploy 用のサンプルスクリプ�
 12. $tenantName = "xxxxxx" をテナントのサブドメイン名に変更します。<br>
 13. $username = "admin@xxxxxx.onmicrosoft.com" のxxxxxxをテナント名に変更します。<br>
 14. $pass = ConvertTo-SecureString "xxxxxxxx" -AsPlainText -Force のxxxxxxxxをadminユーザーのパスワードに変更します。<br>
-15. SampleCreateSchoolAccounts.ps1を別名（CreateSchoolAccounts.ps1）で保存します。
+15. SampleCreateSchoolAccounts.ps1を別名（CreateSchoolAccounts.ps1）で保存します。<br>
 ※ #ライセンスプランの部分で所有しているライセンスプランが不明な場合は Get-MsolAccountSku コマンドにて確認して変更します。<br>
 16. SampleBatchCreateSchoolAccounts.ps1を開きます。<br>
 17. .\CreateSchoolAccounts.ps1 に続けて作成した CSV ファイルの名前を入力します。<br>
 例：<br>
-.\CreateSchoolAccounts.ps1 XXXX小学校_Student<br>
-.\CreateSchoolAccounts.ps1 XXXX小学校_Teacher<br>
-.\CreateSchoolAccounts.ps1 XXXX中学校_Student<br>
+.\CreateSchoolAccounts.ps1 XXXX小学校_Student.csv<br>
+.\CreateSchoolAccounts.ps1 XXXX小学校_Teacher.csv<br>
+.\CreateSchoolAccounts.ps1 XXXX中学校_Student.csv<br>
 
 18. SampleBatchCreateSchoolAccounts.ps1を別名（BatchCreateSchoolAccounts.ps1）で保存します。<br>
 19. BatchCreateSchoolAccounts.ps1のパスを指定して実行します。例：C:\xxxx\BatchCreateSchoolAccounts.ps1<br> 
