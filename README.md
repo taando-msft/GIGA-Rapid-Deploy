@@ -1,5 +1,6 @@
 # GIGA-Rapid-Deploy
-GIGA スクール構想における Rapid Deploy 用のサンプルスクリプトです。Office 365 アカウントの作成からテナントへのインポートまでを PowerShell で一括管理します。
+GIGA スクール構想における Rapid Deploy 用のサンプルスクリプトです。<br>
+Office 365 アカウントの作成からテナントへのインポートまでを PowerShell で一括管理します。
 
 # 前提条件
 [Office 365 PowerShell への接続](https://docs.microsoft.com/ja-jp/office365/enterprise/powershell/connect-to-office-365-powershell)を参考にPowerShellを利用するために必要なモジュールを事前にインストールしてください。
