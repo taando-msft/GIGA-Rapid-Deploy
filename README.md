@@ -30,7 +30,7 @@ Office 365 を利用するためのアカウント作成からテナントへの
 13. $username = "admin@xxxxxx.onmicrosoft.com" のxxxxxxをテナント名に変更します。<br>
 14. $pass = ConvertTo-SecureString "xxxxxxxx" -AsPlainText -Force のxxxxxxxxをadminユーザーのパスワードに変更します。<br>
 15. SampleCreateSchoolAccounts.ps1を別名（CreateSchoolAccounts.ps1）で保存します。<br>
-※ #ライセンスプランの部分で所有しているライセンスプランが不明な場合は Get-MsolAccountSku コマンドにて確認して変更します。<br>
+※ #ライセンスプランの部分で所有しているライセンスプランが不明な場合は Get-MsolAccountSku コマンドにて確認して変更してください。<br>
 16. SampleBatchCreateSchoolAccounts.ps1を開きます。<br>
 17. .\CreateSchoolAccounts.ps1 に続けて作成した CSV ファイルの名前を入力します。<br>
 例：<br>
