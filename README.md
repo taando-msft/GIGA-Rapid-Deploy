@@ -20,7 +20,7 @@ GIGA スクール構想における Rapid Deploy 用のサンプルスクリプ�
 例：C:\xxxx\CreateCSV.ps1<br>
 ※ スクリプトの実行に失敗する場合は Set-ExecutionPolicy RemoteSigned コマンドレットを実行（「Y」を選択）してから再実行してください。<br>
 8. C:¥xxxxのoutputフォルダー内に学校名と人数が記載されたCSVファイルが作成されていることを確認します。<br>
-9. 8で作成されたCSVファイルをC:¥xxxxに保存します。<br>
+9. 8.で作成されたCSVファイルをC:¥xxxxに保存します。<br>
 
 ## Office 365 へのインポート　　
 10. SampleCreateSchoolAccounts.ps1を開きます。<br>
@@ -38,4 +38,5 @@ GIGA スクール構想における Rapid Deploy 用のサンプルスクリプ�
 .\CreateSchoolAccounts.ps1 XXXX中学校_Student.csv<br>
 
 18. SampleBatchCreateSchoolAccounts.ps1を別名（BatchCreateSchoolAccounts.ps1）で保存します。<br>
-19. BatchCreateSchoolAccounts.ps1のパスを指定して実行します。例：C:\xxxx\BatchCreateSchoolAccounts.ps1<br> 
+19. BatchCreateSchoolAccounts.ps1のパスを指定して実行します。例：C:\xxxx\BatchCreateSchoolAccounts.ps1<br>
+20. Office 365 のユーザーにアカウントが作成されていることを確認します。
