@@ -17,9 +17,9 @@ GIGA スクール構想における Rapid Deploy 用のサンプルスクリプ�
 5. $domainname = "@.onmicrosoft.com"のxxxxx部分をテナントのサブドメイン名に変更します。<br>
 6. CreateCSV.ps1ファイルを保存します。<br>
 7. Windows PowerShell を開き、CreateCSV.ps1のパスを指定して実行します。例：C:\xxxx\CreateCSV.ps1<br>
+※ スクリプトの実行に失敗する場合は Set-Execution RemoteSigned コマンドレットを実行してから再実行してください。<br>
 8. C:¥xxxxのoutputフォルダー内に学校名と人数が記載されたCSVファイルが作成されていることを確認します。<br>
 9. 8で作成されたCSVファイルをC:¥xxxxに保存します。<br>
-※ スクリプトの実行に失敗する場合は Set-Execution RemoteSigned コマンドレットを実行してから再実行してください。<br>
 
 ## Office 365 へのインポート　　
 10. CreateSchoolAccounts.ps1を開きます。<br>
