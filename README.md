@@ -15,17 +15,23 @@ GIGA スクール構想における Rapid Deploy 用のサンプルスクリプ�
 3. schoollist.csvを開き、任意の学校名と人数を記載して、UTF-8形式で保存します。 
 
 ## ユーザーアカウントの作成  
-3. CreateCSV.ps1ファイルを開きます。  
-Set-Location -Path C:\xxxxxのパスを1.で指定したフォルダー名に変更します。<br>　　
-$domainname = "@.onmicrosoft.com"のxxxxx部分をテナントのサブドメイン名に変更します。<br>
-CreateCSV.ps1ファイルを保存します。  
-4. Windows PowerShell を開き、CreateCSV.ps1のパスを指定して実行します。例：C:\xxxx\CreateCSV.ps1  
-5.C:¥xxxxのフォルダー配下にoutputフォルダーが作成されるため、学校名と人数が記載されたCSVファイルが作成されます。  
-※スクリプトの実行に失敗する場合は Set-Execution RemoteSigned コマンドレットを実行してから再実行してください。  
+3. CreateCSV.ps1ファイルを開きます。<br>
+4. Set-Location -Path C:\xxxxxのパスを1.で指定したフォルダー名に変更します。<br>
+5. $domainname = "@.onmicrosoft.com"のxxxxx部分をテナントのサブドメイン名に変更します。<br>
+6. CreateCSV.ps1ファイルを保存します。<br>
+7. Windows PowerShell を開き、CreateCSV.ps1のパスを指定して実行します。例：C:\xxxx\CreateCSV.ps1<br>
+8. C:¥xxxxのoutputフォルダー内に学校名と人数が記載されたCSVファイルが作成されていることを確認します。<br>
+9. 8で作成されたCSVファイルをC:¥xxxxに保存します。<br>
+※スクリプトの実行に失敗する場合は Set-Execution RemoteSigned コマンドレットを実行してから再実行してください。<br>
 
 ## Office 365 へのインポート　　
-6. CreateSchoolAccounts.ps1を開き、Set-Location -Path "C:\xxxxx"のパスを1.で指定したフォルダー名に変更します。  
-7. $tenantName = "xxxxxx"と$username = "admin@xxxxxx.onmicrosoft.com"の値をテナント名に変更します。
+10. CreateSchoolAccounts.ps1を開き、Set-Location -Path "C:\xxxxx"のパスを1.で指定したフォルダー名に変更します。<br>
+11. $tenantName = "xxxxxx" をテナントのサブドメイン名に変更します。<br>
+12. $username = "admin@xxxxxx.onmicrosoft.com" のxxxxxxをテナント名に変更します。<br>
+13. $pass = ConvertTo-SecureString "xxxxxxxx" -AsPlainText -Force のxxxxxxxxをadminユーザーのパスワードに変更します。<br>
+14. CreateSchoolAccounts.ps1を保存します。
+
+
 
 
 
