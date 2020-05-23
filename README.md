@@ -22,15 +22,16 @@ GIGA スクール構想における Rapid Deploy 用のサンプルスクリプ�
 7. Windows PowerShell を開き、CreateCSV.ps1のパスを指定して実行します。例：C:\xxxx\CreateCSV.ps1<br>
 8. C:¥xxxxのoutputフォルダー内に学校名と人数が記載されたCSVファイルが作成されていることを確認します。<br>
 9. 8で作成されたCSVファイルをC:¥xxxxに保存します。<br>
-※スクリプトの実行に失敗する場合は Set-Execution RemoteSigned コマンドレットを実行してから再実行してください。<br>
+※ スクリプトの実行に失敗する場合は Set-Execution RemoteSigned コマンドレットを実行してから再実行してください。<br>
 
 ## Office 365 へのインポート　　
-10. CreateSchoolAccounts.ps1を開き、Set-Location -Path "C:\xxxxx"のパスを1.で指定したフォルダー名に変更します。<br>
-11. $tenantName = "xxxxxx" をテナントのサブドメイン名に変更します。<br>
-12. $username = "admin@xxxxxx.onmicrosoft.com" のxxxxxxをテナント名に変更します。<br>
-13. $pass = ConvertTo-SecureString "xxxxxxxx" -AsPlainText -Force のxxxxxxxxをadminユーザーのパスワードに変更します。<br>
-14. CreateSchoolAccounts.ps1を保存します。
-
+10. CreateSchoolAccounts.ps1を開きます。<br>
+11. Set-Location -Path "C:\xxxxx"のパスを1.で指定したフォルダー名に変更します。<br>
+12. $tenantName = "xxxxxx" をテナントのサブドメイン名に変更します。<br>
+13. $username = "admin@xxxxxx.onmicrosoft.com" のxxxxxxをテナント名に変更します。<br>
+14. $pass = ConvertTo-SecureString "xxxxxxxx" -AsPlainText -Force のxxxxxxxxをadminユーザーのパスワードに変更します。<br>
+15. CreateSchoolAccounts.ps1を保存します。
+※ #ライセンスプランの部分で所有しているライセンスプランが不明な場合は Get-MsolAccountSku コマンドにて確認して変更します。
 
 
 
